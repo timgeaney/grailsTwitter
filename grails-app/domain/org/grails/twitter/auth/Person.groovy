@@ -4,6 +4,7 @@ class Person {
 
 	transient springSecurityService
 
+	String realName
 	String username
 	String password
 	boolean enabled
