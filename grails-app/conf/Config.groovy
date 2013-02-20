@@ -94,3 +94,10 @@ log4j = {
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'org.grails.twitter.auth.Person'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'org.grails.twitter.auth.PersonAuthority'
 grails.plugins.springsecurity.authority.className = 'org.grails.twitter.auth.Authority'
+
+// grails.plugins.springsecurity.SecurityConfigType = grails.plugins.springsecurity.SecurityConfigType.InterceptUrlMap
+// grails.plugins.springsecurity.interceptUrlMap = [
+//   '/status/**':   ['IS_AUTHENTICATED_FULLY'],
+//   '/login/**':   ['IS_AUTHENTICATED_ANONYMOUSLY'],
+//   '/logout/**':   ['IS_AUTHENTICATED_ANONYMOUSLY']
+// ]

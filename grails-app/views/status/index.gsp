@@ -15,6 +15,7 @@
 
     <h1>What Are You Doing?</h1>
     <div class="updatStatusForm">
+    	//formRemote creates ajax form
         <g:formRemote url="[action: 'updateStatus']" update="messages" name="updateStatusForm"
                       onSuccess="document.updateStatusForm.message.value='';">
             <g:textArea name="message" value=""/><br/>
